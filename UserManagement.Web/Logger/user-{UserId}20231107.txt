@@ -1,0 +1,14 @@
+2023-11-07 07:05:57.398 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/users - -
+2023-11-07 07:05:57.403 +00:00 [INF] Executing endpoint 'UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web)'
+2023-11-07 07:05:57.404 +00:00 [INF] Route matched with {action = "List", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult List() on controller UserManagement.WebMS.Controllers.UsersController (UserManagement.Web).
+2023-11-07 07:05:57.406 +00:00 [INF] Executing ViewResult, running view List.
+2023-11-07 07:05:57.416 +00:00 [INF] Executed ViewResult - view List executed in 11.1553ms.
+2023-11-07 07:05:57.416 +00:00 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web) in 12.6891ms
+2023-11-07 07:05:57.416 +00:00 [INF] Executed endpoint 'UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web)'
+2023-11-07 07:05:57.429 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/users - - - 200 - text/html;+charset=utf-8 31.5206ms
+2023-11-07 07:05:57.434 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/helloworld.styles.css - -
+2023-11-07 07:05:57.435 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/helloworld.styles.css - - - 404 0 - 0.5156ms
+2023-11-07 07:05:57.466 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 07:05:57.466 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - -
+2023-11-07 07:05:57.467 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - - - 200 12005 application/javascript;+charset=utf-8 1.2484ms
+2023-11-07 07:05:57.515 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.2076ms

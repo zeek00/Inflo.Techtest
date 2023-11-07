@@ -1,0 +1,53 @@
+﻿@model UserManagement.Web.Models.Users.UserDetailsViewModel
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<h2>User Details</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">ID:</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Forename:</dt>
+        <dd class="col-sm-10">@Model.Forename</dd>
+
+        <dt class="col-sm-2">Surname:</dt>
+        <dd class="col-sm-10">@Model.Surname</dd>
+
+        <dt class="col-sm-2">Email:</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+
+        <dt class="col-sm-2">Account Active:</dt>
+        <dd class="col-sm-10">@Model.IsActive</dd>
+
+        <dt class="col-sm-2">Date of Birth:</dt>
+        <dd class="col-sm-10">@Model.DateOfBirth.ToString("dd/MM/yyyy")</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-controller="Users" asp-action="List" class="btn btn-primary">Go Back</a>
+</div>
+
+<div>
+    <h3>User Action Log</h3>
+    <pre>
+        @if (System.IO.File.Exists($"Logger/user-{Model.Id}.txt"))
+        {
+            var logLines = System.IO.File.ReadLines($"Logger/user-{Model.Id}.txt");
+
+            foreach (var logLine in logLines)
+            {
+                <text>@logLine</text>
+            <br />
+            }
+        }
+        else
+        {
+            <text>No action logs for this user.</text>
+        }
+    </pre>
+</div>

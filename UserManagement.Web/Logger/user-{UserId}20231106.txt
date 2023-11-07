@@ -1,0 +1,85 @@
+2023-11-06 17:38:48.120 +00:00 [INF] User profile is available. Using 'C:\Users\isaac\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-06 17:38:48.468 +00:00 [INF] Now listening on: https://localhost:7084
+2023-11-06 17:38:48.469 +00:00 [INF] Now listening on: http://localhost:5084
+2023-11-06 17:38:48.474 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-06 17:38:48.474 +00:00 [INF] Hosting environment: Development
+2023-11-06 17:38:48.474 +00:00 [INF] Content root path: C:\Users\isaac\OneDrive\DOCS\Documents\MASTER Inflo.TechTest.AspNetCore OCT 2023 - Copy\UserManagement.Web
+2023-11-06 17:38:49.316 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/ - -
+2023-11-06 17:38:49.368 +00:00 [INF] Executing endpoint 'UserManagement.WebMS.Controllers.HomeController.Index (UserManagement.Web)'
+2023-11-06 17:38:49.401 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller UserManagement.WebMS.Controllers.HomeController (UserManagement.Web).
+2023-11-06 17:38:49.414 +00:00 [INF] Executing ViewResult, running view Index.
+2023-11-06 17:38:49.742 +00:00 [INF] Executed ViewResult - view Index executed in 331.206ms.
+2023-11-06 17:38:49.746 +00:00 [INF] Executed action UserManagement.WebMS.Controllers.HomeController.Index (UserManagement.Web) in 344.0961ms
+2023-11-06 17:38:49.746 +00:00 [INF] Executed endpoint 'UserManagement.WebMS.Controllers.HomeController.Index (UserManagement.Web)'
+2023-11-06 17:38:49.785 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/ - - - 200 - text/html;+charset=utf-8 471.1736ms
+2023-11-06 17:38:49.793 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/helloworld.styles.css - -
+2023-11-06 17:38:49.797 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/helloworld.styles.css - - - 404 0 - 3.7281ms
+2023-11-06 17:38:49.820 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - -
+2023-11-06 17:38:49.821 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - -
+2023-11-06 17:38:49.844 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - - - 200 12005 application/javascript;+charset=utf-8 24.0469ms
+2023-11-06 17:38:49.875 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.8267ms
+2023-11-06 17:38:54.370 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/users - -
+2023-11-06 17:38:54.376 +00:00 [INF] Executing endpoint 'UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web)'
+2023-11-06 17:38:54.378 +00:00 [INF] Route matched with {action = "List", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult List() on controller UserManagement.WebMS.Controllers.UsersController (UserManagement.Web).
+2023-11-06 17:38:54.873 +00:00 [INF] Executing ViewResult, running view List.
+2023-11-06 17:38:54.902 +00:00 [INF] Executed ViewResult - view List executed in 29.4133ms.
+2023-11-06 17:38:54.903 +00:00 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web) in 524.1593ms
+2023-11-06 17:38:54.903 +00:00 [INF] Executed endpoint 'UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web)'
+2023-11-06 17:38:54.910 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/users - - - 200 - text/html;+charset=utf-8 539.6323ms
+2023-11-06 17:38:54.918 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/helloworld.styles.css - -
+2023-11-06 17:38:54.918 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - -
+2023-11-06 17:38:54.918 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - -
+2023-11-06 17:38:54.919 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/helloworld.styles.css - - - 404 0 - 1.5559ms
+2023-11-06 17:38:54.920 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - - - 200 12005 application/javascript;+charset=utf-8 1.7350ms
+2023-11-06 17:38:54.953 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.4055ms
+2023-11-06 17:39:00.199 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/users/edit/3 - -
+2023-11-06 17:39:00.201 +00:00 [INF] Executing endpoint 'UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web)'
+2023-11-06 17:39:00.213 +00:00 [INF] Route matched with {action = "Edit", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit(Int64) on controller UserManagement.WebMS.Controllers.UsersController (UserManagement.Web).
+2023-11-06 17:39:00.242 +00:00 [INF] User 3 is editing the user with ID 3.at Timestamp: {Timestamp:yyyy-MM-dd HH:mm:ss}
+2023-11-06 17:39:00.245 +00:00 [INF] Executing ViewResult, running view Edit.
+2023-11-06 17:39:00.292 +00:00 [INF] Executed ViewResult - view Edit executed in 47.3569ms.
+2023-11-06 17:39:00.292 +00:00 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web) in 78.6616ms
+2023-11-06 17:39:00.292 +00:00 [INF] Executed endpoint 'UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web)'
+2023-11-06 17:39:00.294 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/users/edit/3 - - - 200 - text/html;+charset=utf-8 94.3906ms
+2023-11-06 17:39:00.303 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/helloworld.styles.css - -
+2023-11-06 17:39:00.303 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - -
+2023-11-06 17:39:00.303 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - -
+2023-11-06 17:39:00.304 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/helloworld.styles.css - - - 404 0 - 1.3538ms
+2023-11-06 17:39:00.304 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - - - 200 12005 application/javascript;+charset=utf-8 0.9976ms
+2023-11-06 17:39:00.329 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.8228ms
+2023-11-06 17:39:06.819 +00:00 [INF] Request starting HTTP/2 POST https://localhost:7084/users/edit/3 application/x-www-form-urlencoded 305
+2023-11-06 17:39:06.822 +00:00 [INF] Executing endpoint 'UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web)'
+2023-11-06 17:39:06.828 +00:00 [INF] Route matched with {action = "Edit", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit(Int64, UserManagement.Web.Models.Users.UserEditViewModel) on controller UserManagement.WebMS.Controllers.UsersController (UserManagement.Web).
+2023-11-06 17:39:06.880 +00:00 [INF] User 3 updated the user with ID 3 at Timestamp: {Timestamp:yyyy-MM-dd HH:mm:ss}.
+2023-11-06 17:39:06.900 +00:00 [INF] Executing RedirectResult, redirecting to /users.
+2023-11-06 17:39:06.903 +00:00 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web) in 75.0296ms
+2023-11-06 17:39:06.903 +00:00 [INF] Executed endpoint 'UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web)'
+2023-11-06 17:39:06.904 +00:00 [INF] Request finished HTTP/2 POST https://localhost:7084/users/edit/3 application/x-www-form-urlencoded 305 - 302 0 - 84.6983ms
+2023-11-06 17:39:06.907 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/users - -
+2023-11-06 17:39:06.908 +00:00 [INF] Executing endpoint 'UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web)'
+2023-11-06 17:39:06.908 +00:00 [INF] Route matched with {action = "List", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult List() on controller UserManagement.WebMS.Controllers.UsersController (UserManagement.Web).
+2023-11-06 17:39:06.909 +00:00 [INF] Executing ViewResult, running view List.
+2023-11-06 17:39:06.916 +00:00 [INF] Executed ViewResult - view List executed in 7.7246ms.
+2023-11-06 17:39:06.917 +00:00 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web) in 8.6462ms
+2023-11-06 17:39:06.917 +00:00 [INF] Executed endpoint 'UserManagement.WebMS.Controllers.UsersController.List (UserManagement.Web)'
+2023-11-06 17:39:06.923 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/users - - - 200 - text/html;+charset=utf-8 16.4223ms
+2023-11-06 17:39:06.941 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - -
+2023-11-06 17:39:06.941 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/helloworld.styles.css - -
+2023-11-06 17:39:06.942 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - - - 200 12005 application/javascript;+charset=utf-8 1.2334ms
+2023-11-06 17:39:06.942 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/helloworld.styles.css - - - 404 0 - 0.9239ms
+2023-11-06 17:39:06.945 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - -
+2023-11-06 17:39:06.978 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.5354ms
+2023-11-06 17:39:25.571 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/users/details/3 - -
+2023-11-06 17:39:25.573 +00:00 [INF] Executing endpoint 'UserManagement.WebMS.Controllers.UsersController.Details (UserManagement.Web)'
+2023-11-06 17:39:25.578 +00:00 [INF] Route matched with {action = "Details", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details(Int64) on controller UserManagement.WebMS.Controllers.UsersController (UserManagement.Web).
+2023-11-06 17:39:25.586 +00:00 [INF] Executing ViewResult, running view Details.
+2023-11-06 17:39:25.610 +00:00 [INF] Executed ViewResult - view Details executed in 25.209ms.
+2023-11-06 17:39:25.610 +00:00 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.Details (UserManagement.Web) in 31.0879ms
+2023-11-06 17:39:25.610 +00:00 [INF] Executed endpoint 'UserManagement.WebMS.Controllers.UsersController.Details (UserManagement.Web)'
+2023-11-06 17:39:25.612 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/users/details/3 - - - 200 - text/html;+charset=utf-8 41.0063ms
+2023-11-06 17:39:25.625 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - -
+2023-11-06 17:39:25.626 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/helloworld.styles.css - -
+2023-11-06 17:39:25.626 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_framework/aspnetcore-browser-refresh.js - - - 200 12005 application/javascript;+charset=utf-8 1.1561ms
+2023-11-06 17:39:25.627 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/helloworld.styles.css - - - 404 0 - 1.0656ms
+2023-11-06 17:39:25.638 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7084/_vs/browserLink - -
+2023-11-06 17:39:25.677 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.1302ms
