@@ -1,0 +1,14 @@
+2023-11-07 10:39:48 [INF] User 9 is editing the user with ID 9.at Timestamp: {Timestamp:yyyy-MM-dd HH:mm:ss}
+2023-11-07 10:39:48 [INF] Executing ViewResult, running view Edit.
+2023-11-07 10:39:48 [INF] Executed ViewResult - view Edit executed in 50.7376ms.
+2023-11-07 10:39:48 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web) in 99.3981ms
+2023-11-07 10:40:03 [INF] User 9 edited the user with ID 9 at Timestamp: {Timestamp:yyyy-MM-dd HH:mm:ss}.
+2023-11-07 10:40:03 [INF] Executing RedirectResult, redirecting to /users.
+2023-11-07 10:40:03 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web) in 88.1082ms
+2023-11-07 10:50:42 [INF] User 2 is editing the user with ID 2.at Timestamp: {Timestamp:yyyy-MM-dd HH:mm:ss}
+2023-11-07 10:50:42 [INF] Executing ViewResult, running view Edit.
+2023-11-07 10:50:42 [INF] Executed ViewResult - view Edit executed in 47.5662ms.
+2023-11-07 10:50:42 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.Edit (UserManagement.Web) in 108.1638ms
+2023-11-07 11:08:14.752 +00:00 [INF] User 0 created a new user with email ukzeek0@gmail.com.
+2023-11-07 11:08:14.802 +00:00 [INF] Executing RedirectResult, redirecting to /users.
+2023-11-07 11:08:14.802 +00:00 [INF] Executed action UserManagement.WebMS.Controllers.UsersController.CreateUser (UserManagement.Web) in 107.2199ms
