@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Diagnostics;
+using System.Linq;
 using Serilog;
 using Serilog.Context;
 using UserManagement.Data;
@@ -159,6 +160,7 @@ public class UsersController : Controller
         }
 
         LogContext.PushProperty("UserId", id);
+        Debug.WriteLine($"User ID for editing: {id}");
 
         // logger action
         Log.Information("User {UserId} is editing the user with ID {UserId}.at Timestamp: {Timestamp:yyyy-MM-dd HH:mm:ss}", id, user.Id);
@@ -205,7 +207,7 @@ public class UsersController : Controller
         LogContext.PushProperty("UserId", id);
 
         //log the action
-        Log.Information("User {UserId} updated the user with ID {UserId} at Timestamp: {Timestamp:yyyy-MM-dd HH:mm:ss}.", id, user.Id);
+        Log.Information("User {UserId} edited the user with ID {UserId} at Timestamp: {Timestamp:yyyy-MM-dd HH:mm:ss}.", id, user.Id);
       
 
 

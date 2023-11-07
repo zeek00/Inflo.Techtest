@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Westwind.AspNetCore.Markdown;
 using Serilog;
-using Serilog.Formatting.Compact;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,8 +20,10 @@ builder.Host.UseSerilog((context, configuration) =>
 {
     configuration
         .Enrich.FromLogContext()
-        .WriteTo.File("Logger/user-@UserId.txt")  // Use CompactJsonFormatter
-        .MinimumLevel.Information();
+        .WriteTo.Logger(lc => lc
+            .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("UserId"))
+            .WriteTo.File("Logger/user-.txt", rollingInterval: RollingInterval.Day,shared: true)
+            .MinimumLevel.Information());
 });
 
 var app = builder.Build();
